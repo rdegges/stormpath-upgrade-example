@@ -2,7 +2,7 @@ var express = require('express');
 var stormpath = require('express-stormpath');
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', process.env.PORT || 5000);
 
 app.use(express.static(__dirname + '/public'));
 
