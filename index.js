@@ -15,14 +15,16 @@ app.set('view engine', 'ejs');
 // }));
 
 app.use(stormpath.init(app, {
-  register: {
-    enabled: false
-  },
-  login: {
-    enabled: true
-  },
-  logout: {
-    enabled: true
+  web: {
+    register: {
+      enabled: false
+    },
+    login: {
+      enabled: true
+    },
+    logout: {
+      enabled: true
+    }
   }
 }));
 
