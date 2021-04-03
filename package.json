@@ -9,7 +9,7 @@
   "dependencies": {
     "ejs": "2.3.3",
     "express": "4.13.3",
-    "express-stormpath": "2.3.3"
+    "express-stormpath": "2.4.0"
   },
   "engines": {
     "node": "0.12.7"
