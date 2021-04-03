@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "ejs": "2.3.3",
-    "express": "4.13.3",
+    "express": "4.17.1",
     "express-stormpath": "2.3.3"
   },
   "engines": {
